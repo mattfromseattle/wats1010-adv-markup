@@ -1,1 +1,45 @@
-/* Styles for the Advanced Markup assignment. */
+header, section, aside, footer {
+    margin: 0 1.5% 24px 1.5%;
+}
+
+header li {
+    display: inline;
+}
+
+header a.hover {}
+
+section {
+    float: left;
+    width: 63%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+#sidebar p {}
+
+.poem::first-letter {
+    font-family: cursive;
+    font-size: 500%;
+    color: #000000;
+    text-shadow: 2px 2px 4px #FFFFFF;
+}
+
+.poem {
+    list-style: none;
+    font-family: "Arial";
+    font-size: 24px;
+    text-align: center;
+    line-height: 35px;
+}
+
+footer {
+    clear: both;
+    margin-bottom: 0;
+}
+
+.bottom-nav li {
+    display: inline;
+}
