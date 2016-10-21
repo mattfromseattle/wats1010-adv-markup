@@ -18,7 +18,13 @@ aside {
     width: 30%;
 }
 
-#sidebar p {}
+#sidebar dl {
+    font-weight: bold;
+}
+
+#sidebar dt {
+    font-weight: normal;
+}
 
 .poem::first-letter {
     font-family: cursive;
@@ -42,4 +48,9 @@ footer {
 
 .bottom-nav li {
     display: inline;
+}
+
+.bio-photo {
+    float: left;
+    width: 35%;
 }
